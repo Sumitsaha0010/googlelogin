@@ -1,0 +1,25 @@
+/* static/css/style.css */
+
+.btn-google {
+    background-color: #4285F4;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-google:hover {
+    background-color: #357ae8;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-google img {
+    margin-right: 8px;
+    vertical-align: middle;
+    height: 20px;
+}
