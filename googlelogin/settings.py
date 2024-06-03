@@ -93,15 +93,15 @@ WSGI_APPLICATION = 'googlelogin.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# superbase db local
+# superbase db
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
-        'USER': 'postgres.vjiyggwgydkgovzesndg',
-        'PASSWORD': 'jEWbg7WC3tWZtZwo',
-        'HOST': 'aws-0-ap-south-1.pooler.supabase.com', 
-        'PORT': '6543',  
+        'USER': 'superbase user id',
+        'PASSWORD': 'superbase database password',
+        'HOST': 'superbase host', 
+        'PORT': 'superbase port',  
     }
 }
 
